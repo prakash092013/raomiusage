@@ -1,0 +1,19 @@
+{
+  "name": "prakash-miusage",
+  "version": "1.0.0",
+  "description": "A simple plugin to fetch data from remote API and show in block editor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "author": "Prakash Rao <prakash122014@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.4.0"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^6.30.0"
+  }
+}
